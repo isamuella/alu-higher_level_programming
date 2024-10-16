@@ -4,4 +4,4 @@ try:
     number+1
     print(f"{number} Battery street")
 except ValueError:
-    print("number is not an integer")
+    print("Unknown format code 'd' for object of type 'str')
