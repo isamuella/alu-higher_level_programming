@@ -8,4 +8,4 @@ def print_last_digit(number):
         print("{}".format(last_digit), end="")
         return last_digit
     except:
-        return "Traceback (most recent call last)"
+        return "Traceback (most recent call last):"
