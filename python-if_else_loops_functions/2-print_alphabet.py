@@ -2,4 +2,4 @@
 
 import string
 
-print(chr(i), end="" .format(97,123))
+print( end="" .format(97,123))
