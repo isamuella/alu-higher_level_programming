@@ -2,4 +2,5 @@
 
 import string
 
-print({}""{} end="" .format(97,123))
+for i in range(97, 123)
+print("{}".format(chr(i)), end="")
