@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 def uppercase(str):
     a = ord('a')
     b = ord('z')
@@ -8,4 +9,3 @@ def uppercase(str):
             char = chr(ord(char) - 32)
         print("{}".format(char), end="")
     print()
-
