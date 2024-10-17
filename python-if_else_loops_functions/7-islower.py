@@ -8,4 +8,4 @@ def islower(c):
     elif 65 <= asci <= 90:
         return False
     else:
-        return "not an ASCII"
+        return False
