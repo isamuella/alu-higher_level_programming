@@ -5,4 +5,4 @@ for num1 in range(10):
         if num1 == 3 and num2 == 4:
             print("{:d}{:d}".format(num1, num2))
         else:
-            print("{:d}{:d}, ".format(num1, num2), end="")
+            print("TextError:wrong numbers", end="")
