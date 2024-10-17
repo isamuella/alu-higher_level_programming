@@ -3,9 +3,8 @@
 
 def print_last_digit(number):
     try:
-        number = int(number)*1
-        last_digit = str(number)[-1]
-        print("{}".format(last_digit), end="")
+        last_digit = abs(int(number)) % 10
+        print(last_digit, end="")
         return last_digit
-    except:
+    except ValueError: 
         return "Traceback (most recent call last):"
