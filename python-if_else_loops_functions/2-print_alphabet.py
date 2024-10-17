@@ -2,5 +2,5 @@
 
 import string
 
-for letters in string.ascii_lowercase:
-print(letter, end="")
+for i in range(97, 123):
+print(chr(i), end="")
