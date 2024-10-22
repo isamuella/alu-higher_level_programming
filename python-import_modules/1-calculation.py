@@ -5,7 +5,7 @@ from calculator_1 import add,sub,mul,div
 if __name__ == "__main__":
     a = 10
     b = 5
-    add = sum(a, b)
+    add = add(a, b)
     subtract = sub(a, b)
     multiply = mul(a, b)
     divide = div(a, b)
