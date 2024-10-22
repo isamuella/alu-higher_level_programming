@@ -9,6 +9,5 @@ if arg_num == 0:
     else:
         print("{} argumrnts:".format(arg_num))
         
-        for num in range(1, len(argv)):
-            print("{}: {}".format(i, argv[num]))
-        
+    for num in range(1, len(argv)):
+        print("{}: {}".format(i, argv[num]))
