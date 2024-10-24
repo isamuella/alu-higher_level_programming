@@ -2,5 +2,4 @@
 
 
 def uniq_add(my_list=[]):
-    total =  reduce(lambda x, y: x + y, set(my_list))
-    print(total)
+    return sum(set(my_list))
