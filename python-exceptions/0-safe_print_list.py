@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 def safe_print_list(my_list=[], x=0):
     try:
         count = 0
@@ -9,5 +10,5 @@ def safe_print_list(my_list=[], x=0):
             print()
             return count
     except IndexError:
-        print("There's an Error")
+        print()
         return count
