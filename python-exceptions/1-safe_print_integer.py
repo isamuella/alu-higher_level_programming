@@ -3,7 +3,7 @@
 def safe_print_integer(value):
     count = 0
     try:
-        for val in value:
-            print("Value: {:d},.format(int(value))")
+        print("Value: {:d},".format(int(value)))
+        return True
     except
-    return
+    return False
