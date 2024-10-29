@@ -2,4 +2,4 @@
 
 
 def raise_exception_msg(message=""):
-    raise NameError("Python language")
+    raise NameError("C is fun")
