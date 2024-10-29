@@ -4,10 +4,10 @@
 def safe_print_list_integers(my_list=[], x=0):
     count = 0
     try:
-        for item in range(int(x)):
-            if isinstance(my_list[item], int)
-        print("{:d}".format(my_list[item]), end="")
+        for item in my_list:
+            if isinstance(item, int)
+        print("{:d}".format(item), end="")
+        count += 1
         break
     except IndexError:
-        print()
-        return count
+        return my_list
