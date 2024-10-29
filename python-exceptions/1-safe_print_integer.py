@@ -3,7 +3,7 @@
 def safe_print_integer(value):
     count = 0
     try:
-        print("Value: {:d},".format(int(value)))
+        print("{:d}".format(int(value)))
         return True
     except
     return False
