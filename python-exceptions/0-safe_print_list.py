@@ -4,13 +4,11 @@
 def safe_print_list(my_list=[], x=0):
     count = 0
     try:
-        for i in range(x):
-            print(my_list[i], end="")
+        for s in range(x):
+            print(my_list[s], end="")
             count += 1
-        print("")
-        return count
     except IndexError:
-        pass    
-    finally:
-        print("")
-     return count
+        pass
+    print()
+    return count
+    
