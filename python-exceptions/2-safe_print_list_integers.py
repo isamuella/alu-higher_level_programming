@@ -5,9 +5,8 @@ def safe_print_list_integers(my_list=[], x=0):
     count = 0
     try:
         for item in my_list:
-            if insistance(item, int)
-        print("{:d}".format(item))
+            if isinstance(item, int)
+        print("{:d}".format(item), end="")
         break
-    except:
+    except IndexError:
         return my_list
-
