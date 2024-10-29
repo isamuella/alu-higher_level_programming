@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 
 """
-created an empty class named Square
+To create an empty class named Square
 """
 class Square:
+    """
+    created an empty class
+    """
     pass
