@@ -19,7 +19,6 @@ class Square:
             self.__size = size
         except Exception as e:
             raise e
-
      def area(self):
          """
          Calculate the area.
