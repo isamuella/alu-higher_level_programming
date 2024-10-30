@@ -2,7 +2,7 @@
 
 
 """
-To create a class to define a square with a private attribute called size.
+To create a class to define a square with a private attribute called size and calculate the are of the square.
 """
 
 
