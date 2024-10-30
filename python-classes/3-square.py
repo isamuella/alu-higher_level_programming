@@ -2,13 +2,13 @@
 
 
 """
-To create a class to define a square with a private attribute called size and a method to calculate the area.
+To create a class to define a square with a private attribute called size.
 """
 
 
 class Square:
     """
-    Class that defines a square and calculates are of the square.
+    Class that defines a square.
     """
     def __init__(self, size=0):
         try:
@@ -19,7 +19,6 @@ class Square:
             self.__size = size
         except Exception as e:
             raise e
-        def area(self):
-            self.area = area
-            area_result = size * size
-            print("{}" * "{}" = "{}".format(size, size, area_result))
+
+     def area(self):
+         return self.__size **2
