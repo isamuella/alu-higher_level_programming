@@ -12,9 +12,6 @@ class Square:
     """
 
     def __init__(self, size=0):
-        """
-        initializes the square's size through the setter method
-        """
         self.size = size
 
     @property
