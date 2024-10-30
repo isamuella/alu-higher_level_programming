@@ -21,11 +21,11 @@ class Square:
 
     @property.setter
     """
-    Sets a private attribute for __size with validation.
+    Sets a private attribute for the square size.
 
-    raises:
-        ValueError: if value is less than 0.
+    Raises:
         TypeError: if value is not an integer.
+        ValueError: if value is less than 0.
     """
     def size(self, value):
         if not isinstance(value, int):
