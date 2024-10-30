@@ -18,7 +18,7 @@ class Square:
     @property
     def size(self):
         """creates a getter method for the __size attribute"""
-        return self.__size
+        return self._size
 
     @size.setter
     def size(self, value):
@@ -33,22 +33,22 @@ class Square:
             raise TypeError("size must be an integer")
         if value < 0:
             raise ValueError("size must be >= 0")
-        self.__size = value
+        self._size = value
 
     @property
     def position(self):
-        return self.__position
+        return self._position
 
     @position.setter
     def position(self, value):
         if (not isinstance(value, tuple) or len(value) != 2 or not all(isinstance(x, int)
-            and x >=0 for x in value))): 
+            and x >=0 for x in value): 
             raise TypeError("position must be a tuple of  2 positive integers")
-        self.__position = value
+        self._position = value
 
     def area(self):
         """Calculate the area of the square."""
-        return self.__size ** 2
+        return self._size ** 2
 
     def my_print(self):
         """prints in stdout the square with the char #"""
