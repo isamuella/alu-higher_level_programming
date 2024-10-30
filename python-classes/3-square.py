@@ -22,4 +22,4 @@ class Square:
         def area(self):
             self.area = area
             area_result = size * size
-            print("{}" * "{}" = "{}".format(size, size, area_result)
+            print("{}" * "{}" = "{}".format(size, size, area_result))
