@@ -18,5 +18,4 @@ class Square:
                 raise TypeError("size must be an integer")
             self.__size = size
         except Exception as e:
-            raise e
-
+            print(e)
