@@ -19,9 +19,9 @@ class Square:
         """creates a getter method for the __size attribute"""
         return self.__size
 
-    @size.setter
+    @property.setter
     """
-    Sets the square size.
+    Sets a private attribute for __size with validation.
 
     raises:
         ValueError: if value is less than 0.
