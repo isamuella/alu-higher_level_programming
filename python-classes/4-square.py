@@ -19,7 +19,8 @@ class Square:
         """creates a getter method for the __size attribute"""
         return self.__size
 
-    @property.setter
+    @size.setter
+    def size(self, value)
     """
     Sets a private attribute for the square size.
 
@@ -27,7 +28,6 @@ class Square:
         TypeError: if value is not an integer.
         ValueError: if value is less than 0.
     """
-    def size(self, value):
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
         if value < 0:
