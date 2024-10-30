@@ -2,13 +2,13 @@
 
 
 """
-To create an empty class named Square
+To create a class to define a square with a private attribute called size.
 """
 
 
 class Square:
     """
-    created an empty class
+    Class that defines a square.
     """
     def __init__(self, size):
-    self.__size = size
+        self.__size = size
