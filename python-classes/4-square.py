@@ -19,7 +19,7 @@ class Square:
         """creates a getter method for the __size attribute"""
         return self.__size
 
-    @property.setter
+    @size.setter
     """
     Sets the square size.
 
