@@ -2,13 +2,13 @@
 
 
 """
-This code create an empty class.
+To create a class to define a square with a private attribute called size.
 """
 
 
 class Square:
     """
-    A class to represent a square.
+    Class that defines a square.
     """
 
     def __init__(self, size=0):
@@ -16,7 +16,7 @@ class Square:
 
     @property
     def size(self):
-        """creates a getter method for the size attribute"""
+        """creates a getter method for the __size attribute"""
         return self.__size
 
     @property.setter
