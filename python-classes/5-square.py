@@ -43,5 +43,5 @@ class Square:
         if size == 0:
             print("")
         else:
-            for i in range(self.size):
+            for _ in range(self.size):
                 print("{}".format("#" * self.size))
