@@ -2,28 +2,38 @@
 
 
 """
-To create a class to define a square with a private attribute called size.
+This code create an empty class.
 """
 
 
 class Square:
     """
-    Class that defines a square.
+    A class to represent a square.
     """
+
     def __init__(self, size=0):
-        self.size = size
+        self.size = size  # This will use the setter
 
     @property
     def size(self):
+        """Getter for the private attribute __size."""
         return self.__size
 
-    @property.setter
+    @size.setter
     def size(self, value):
-        if not isinstance(size, int):
+        """
+        Setter for the private attribute __size with validation.
+
+        Raises:
+            TypeError: If size is not an integer.
+            ValueError: If size is less than 0.
+        """
+        if not isinstance(value, int):
             raise TypeError("size must be an integer")
-        if size < 0:
+        if value < 0:
             raise ValueError("size must be >= 0")
-            self.__size = value
+        self.__size = value
 
     def area(self):
+        """Calculate and return the area of the square."""
         return self.__size ** 2
