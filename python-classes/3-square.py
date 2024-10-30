@@ -21,4 +21,4 @@ class Square:
             raise e
 
         def area(self):
-            return self.__size ** 2
+            return self.__size**2
