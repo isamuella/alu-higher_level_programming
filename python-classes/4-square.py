@@ -21,13 +21,13 @@ class Square:
 
     @size.setter
     def size(self, value):
-    """
-    Sets a private attribute for the square size.
+        """
+        Sets a private attribute for the square size.
 
-    Raises:
-        TypeError: if value is not an integer.
-        ValueError: if value is less than 0.
-    """
+        Raises:
+            TypeError: if value is not an integer.
+            ValueError: if value is less than 0.
+        """
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
         if value < 0:
