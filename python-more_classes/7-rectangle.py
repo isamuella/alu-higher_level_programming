@@ -67,7 +67,8 @@ class Rectangle:
         """Print the rectangle with character #"""
         if self.__width == 0 or self.__height == 0:
             return ("")
-        return "\n".join(str(self.print_symbol) * self.__width for i in range(self.__height))
+        sign = str(self.print_symbol)
+        return "\n".join(sign * self.__width for i in range(self.__height))
 
     def __repr__(self):
         """A string representation"""
