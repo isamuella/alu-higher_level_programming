@@ -1,9 +1,10 @@
 #!/usr/bin/python3
+
 """Create an empty class Rectangle"""
 
 
 class Rectangle:
-    """This is documentation for Rectangle class"""
+    """Already created Rectangle class"""
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
