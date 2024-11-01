@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-
-
-"""Creates an empty class Rectangle"""
+"""Create an empty class Rectangle"""
 
 
 class Rectangle:
-    """Already created an empty class"""
+    """This is documentation for Rectangle class"""
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
@@ -34,7 +32,7 @@ class Rectangle:
             raise ValueError("width must be >= 0")
         self.__width = value
 
-    @height.seter
+    @height.setter
     def height(self, value):
         """
         Sets a private attribute for the Rectangle height.
