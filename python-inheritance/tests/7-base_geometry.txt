@@ -1,3 +1,5 @@
+bg = BaseGeometry()  # Make sure to instantiate BaseGeometry
+
 # Testing integer_validator correct input
 bg.integer_validator("my_int", 12)   # Output: No Output
 bg.integer_validator("width", 89)    # Output: No Output
