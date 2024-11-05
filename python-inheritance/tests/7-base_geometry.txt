@@ -2,19 +2,19 @@
 bg.integer_validator("my_int", 12)
 bg.integer_validator("width", 89) 
 
-Testing integer_validator with incorrect input
+# Testing integer_validator with incorrect input
 try:
     bg.integer_validator("name", "John")
 except Exception as e:
     print("[{}] {}".format(e.__class__.__name__, e))   # Ouput: [TypeError] name must be an integer
 
-Testing integer_validator with zero input
+# Testing integer_validator with zero input
 try:
     bg.integer_validator("age", 0)
 except Exception as e:
     print("[{}] {}".format(e.__class__.__name__, e))  # Output: [ValueError] age must be greater than 0
 
-Testing integer_validator with negative number input
+# Testing integer_validator with negative number input
 try:
     bg.integer_validator("distance", -4)
 except Exception as e:
