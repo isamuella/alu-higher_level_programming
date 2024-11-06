@@ -1,6 +1,6 @@
 >>> my_list = __import__('1-my_list').MyList
 
->>> new_my_list = my_list()
+>>> new_my_list = MyList()
 >>> new_my_list.append(0)
 >>> new_my_list.append(2)
 >>> new_my_list.append(-9)
