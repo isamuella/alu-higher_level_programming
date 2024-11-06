@@ -7,4 +7,4 @@ class MyList(list):
     """The child class MyList that inheerits from list"""
     def print_sorted(self):
         """prints the sorted list"""
-        print(sorted(self))
+        return sorted(self)
