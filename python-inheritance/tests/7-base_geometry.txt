@@ -5,7 +5,7 @@
 >>> try:
 ...     bg.area()
 ... except Exception as e:
-...     print("[{}] {}".format(e.__clas__.__name__, e))
+...     print("[{}] {}".format(e.__class__.__name__, e))
 [Exception] area() is not implemented
 
 # Test integer_validator()
@@ -49,20 +49,20 @@
 ...     bg.integer_validator("distance", True)
 ... except Exception as e:
 ...     print("[{}] {}".format(e.__class__.__name__,e))
-[TypeError] distance is not an integer
+[TypeError] distance must be an integer
 
 >>> try:
 ...     bg.integer_validator("distance", None)
 ... except Exception as e:
 ...     print("[{}] {}".format(e.__class__.__name__,e))
-[TrueError] distance is not an integer
+[TrueError] distance must be an integer
 
 
 # Testing integer_validator with zero input
 >>> try:
 ...     bg.integer_validator("distance", 0)
 ... except Exception as e:
-    print("[{}] {}".format(e.__class__.__name__, e))
+...     print("[{}] {}".format(e.__class__.__name__, e))
 [ValueError] distance must be greater than 0
 
 # Testing integer_validator with negative number input
