@@ -1,18 +1,28 @@
->>> MyList = __import__('1-my_list').MyList
->>> my_list = MyList()
->>> my_list.append(1)
->>> my_list.append(4)
->>> my_list.append(2)
->>> my_list.print_sorted()
-[1, 2, 4]
->>> print(my_list)
-[1, 4, 2]
->>> my_list = MyList([3, 2, 1])
->>> my_list.print_sorted()
-[1, 2, 3]
->>> my_list = MyList()
->>> my_list.print_sorted()
-[]
->>> my_list = MyList([-3, -2, -1])
->>> my_list.print_sorted()
-[-3, -2, -1]
+#!/usr/bin/python3
+
+MyList = __import__('1-my_list').MyList
+
+# Create an instance of MyList and add elements
+custom_list = MyList()
+custom_list.append(1)
+custom_list.append(4)
+custom_list.append(2)
+
+# Print the sorted list
+custom_list.print_sorted()  # Output: [1, 2, 4]
+
+# Print the original list
+print(custom_list)          # Output: [1, 4, 2]
+
+# Create a new list and print the sorted version
+new_list = MyList([3, 2, 1])
+new_list.print_sorted()     # Output: [1, 2, 3]
+
+# Create an empty list and print the sorted version
+empty_list = MyList()
+empty_list.print_sorted()   # Output: []
+
+# Create a list with negative numbers and print the sorted version
+negative_list = MyList([-3, -2, -1])
+negative_list.print_sorted()  # Output: [-3, -2, -1]
+
