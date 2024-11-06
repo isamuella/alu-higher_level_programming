@@ -17,4 +17,4 @@
 []
 >>> new_list = MyList([-4, -5, -6])
 >>> new_list.print_sorted()
-[-4, -5, -6]
+[-6, -5, -4]
