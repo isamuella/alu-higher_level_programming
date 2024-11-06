@@ -17,7 +17,7 @@
 
 
 # Testing integer_validator correct input
->>> bg.integer_validator("distance", 2)
+>>> bg.integer_validator("distance", 1)
 
 
 # Testing integer_validator with incorrect input
