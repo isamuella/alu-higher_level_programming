@@ -55,7 +55,7 @@
 ...     bg.integer_validator("distance", None)
 ... except Exception as e:
 ...     print("[{}] {}".format(e.__class__.__name__,e))
-[TrueError] distance must be an integer
+[TypeError] distance must be an integer
 
 
 # Testing integer_validator with zero input
