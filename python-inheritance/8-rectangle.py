@@ -15,7 +15,6 @@ class BaseGeometry:
         if value <= 0:
             raise ValueError(f"{name} must be greater than 0")
 
-     
 class Rectangle(BaseGeometry):
     """A child class"""
 
