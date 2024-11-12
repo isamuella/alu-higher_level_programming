@@ -4,5 +4,5 @@
 
 def to_json_string(my_obj):
     """function to return the json of an object"""
-    new_str = json.dump(my_obj)
+    new_str = json.dumpmy_obj)
     return new_str
