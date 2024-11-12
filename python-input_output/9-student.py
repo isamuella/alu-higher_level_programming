@@ -2,7 +2,6 @@
 """an empty class student"""
 
 
-
 class Student:
     """the class Student with attributes"""
     def __init__(self, first_name, last_name, age):
