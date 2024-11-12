@@ -10,9 +10,9 @@ from 6-load_from_json_file import load_from_json_file
 """Uses load_from_json_file from 6-load_from_json_file"""
 
 filename = "add_item.json"
-try:
+if path.exists(filename)
     args = load_from_json_file(filename)
-except FileNotFoundError:
+else:
     args = []
 # Adds a new argument to the list
 args.extend(sys.argv[1:])
