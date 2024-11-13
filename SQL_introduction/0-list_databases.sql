@@ -1,2 +1,2 @@
-__ To list all databases
-SHOW databases;
+__ Listing databases
+SHOW databases
