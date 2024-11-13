@@ -1,2 +1,2 @@
 __ Listing databases
-SHOW databases
+SHOW DATABASES;
