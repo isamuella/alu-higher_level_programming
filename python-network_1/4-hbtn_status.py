@@ -12,7 +12,7 @@ if __name__ == "__main__":
        url = "http://0.0.0.0:5050/status"
        value = requests.get(url)
 
-       status = value.text.strip()
+    status = value.text.strip()
 
     print("Body response:")
     print("\t- type: {}".format(type(status)))
