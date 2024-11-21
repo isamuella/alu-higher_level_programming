@@ -9,7 +9,8 @@ def add_integer(a, b=98):
     Function adds two numbwers
     Args:
         a: First number that has to be an integer or a float.
-        b: Second number that has to be an integer or a float but has a default 98.
+        b: Second number that has to be an integer or a float.
+           Has a default 98.
 
     Returns:
         The addition of integers 'a' and 'b'.
