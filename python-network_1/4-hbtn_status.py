@@ -6,8 +6,8 @@ import requests
 if __name__ == "__main__":
     url = "https://alu-intranet.hbtn.io/status"
     value = requests.get(url)
-    status = value.text.strip()
+    body = value.text
 
     print("Body response:")
-    print("\t- type: {}".format(type(status)))
-    print("\t- content: {}".format(status))
+    print("\t- type: {}".format(type(body)))
+    print("\t- content: {}".format(body))
