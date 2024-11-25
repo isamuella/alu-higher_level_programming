@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-"""Fetch https://alu-intranet.hbtn.io/status."""
+"""
+Fetch https://alu-intranet.hbtn.io/status.
+"""
+
+
 from urllib import request
 
 if __name__ == "__main__":
