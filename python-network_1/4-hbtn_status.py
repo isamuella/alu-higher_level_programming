@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-"""Fetch https://alu-intranet.hbtn.io/status."""
+"""Fetch a url"""
 
 import requests
 
 
 if __name__ == "__main__":
-    value = requests.get( "https://alu-intranet.hbtn.io/status")
+    response = requests.get("https://alu-intranet.hbtn.io/status")
     print("Body response:")
-    print("\t- type: {}".format(type(value.text)))
-    print("\t- content: {}".format(value.text))
+    print("\t- type: {}".format(type(response.text)))
+    print("\t- content: {}".format(response.text))
