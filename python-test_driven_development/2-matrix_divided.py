@@ -44,5 +44,6 @@ def matrix_divided(matrix, div):
     return [
         [
             round(element / div, 2) for element in row
-        ] for row in matrix
+        ]
+        for row in matrix
     ]
