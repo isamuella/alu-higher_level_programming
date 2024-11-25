@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Fetch https://alu-intranet.hbtn.io/status."""
+
 import requests
 
 
