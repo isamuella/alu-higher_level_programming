@@ -1,0 +1,28 @@
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+>>> say_my_name("Gaddiel", "Irakoze")
+My name is Ineza Samuella
+
+>>> try:
+...     say_my_name("Bobo", 2)
+... except Exception as e:
+...     print(f"TypeError: {e}")
+TypeError: last_name must be a string
+
+>>> try:
+...     say_my_name(98, "Kelly")
+... except Exception as e:
+...     print(f"TypeError: {e}")
+TypeError: first_name must be a string
+
+>>> try:
+...     say_my_name(77, 45)
+... except Exception as e:
+...     print(f"TypeError: {e}")
+TypeError: first_name must be a string
+
+>>> try:
+...     say_my_name()
+... except Exception as e:
+...     print(f"TypeError: {e}")
+TypeError: say_my_name() missing 1 required positional argument: 'first_name'
