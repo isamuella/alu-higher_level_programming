@@ -33,4 +33,4 @@ ZeroDivisionError: division by zero
 ...     print(matrix_divided(matrix,2))
 ... except Exception as e:
 ...     print(f"TypeError: {e}")
-TypeError: matrix must be a matrix of (list of lists) integers/floats
+TypeError: matrix must be a matrix (list of lists) of integers/floats
