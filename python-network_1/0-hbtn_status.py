@@ -9,7 +9,7 @@ from urllib import request
 if __name__ == "__main__":
     with request.urlopen(
         "https://alu-intranet.hbtn.io/status"
-        if "https://intranet.hbtn.io/status".statswith("https")
+        if "https://intranet.hbtn.io/status".startswith("https")
         else "https://intranet.hbtn.io/status") as response:
      body = response.read()
     print("Body response:")
