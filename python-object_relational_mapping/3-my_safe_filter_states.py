@@ -18,7 +18,7 @@ if __name__ == "__main__":
         db=db_name
     )
 
-    cursor.db.cursor()
+    cursor = db.cursor()
 
     cursor.execute(
         "SELECT * FROM states WHERE BINARY name = %s"
