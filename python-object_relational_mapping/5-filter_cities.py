@@ -17,7 +17,7 @@ if __name__ == "__main__":
         db=db_name
     )
 
-    cursor = db_cursor()
+    cursor = db.cursor()
 
     cursor.execute(
         """
