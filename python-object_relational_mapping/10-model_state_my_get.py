@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Prints the State object with the name passed as argument from the database"""
 import sys
-from model_state import State
+from model_state import Base,State
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
@@ -12,8 +12,7 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    state = session.query(State).filter(State.name == sys.argv[4])
-    state = state.first()
+    state = session.query(State).filter(State.name == sys.argv[4]).first()
 
     if state:
         print(state.id)
