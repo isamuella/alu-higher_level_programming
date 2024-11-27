@@ -25,7 +25,7 @@ if __name__ == "__main__":
         "ORDER BY id ASC;", (state_name,)
     )
 
-    states = sursor.fetchall()
+    states = cursor.fetchall()
     for state in states:
         print(state)
 
