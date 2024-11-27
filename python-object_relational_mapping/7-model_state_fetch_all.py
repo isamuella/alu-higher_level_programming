@@ -2,7 +2,7 @@
 """Lists all state objects from the database"""
 import sys
 from model_state import State
-from sqlalchemy import Create_engine
+from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 if __name__ == "__main__":
