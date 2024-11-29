@@ -2,7 +2,7 @@
 """Deletes all State objects containing letter a
 from the database"""
 import sys
-from model_state import Base, State
+from model_state import State
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
@@ -18,7 +18,7 @@ if __name__ == "__main__":
     session = Session()
 
     delete_states = session.query(State).filter(
-        State.name.ilike("%a")
+        State.name.like("%a")
     ).all()
 
     for state in delete_states:
