@@ -1,9 +1,8 @@
 #!/usr/bin/node
-const Arg1 = process.argv[2];
-const num = Number(Arg1);
+const number = paresInt(process.argv[2]);
 
-if (isNaN(num)) {
-  console.log('Not a number');
+if (number) {
+  console.log('My number: ' + num);
 } else {
-  console.log(`My number: ${Math.floor(num)}`);
+  console.log('Not a number');
 }
