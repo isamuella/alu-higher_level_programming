@@ -6,7 +6,7 @@ module.exports = class Square extends Square {
     if (c === undefined) {
       this.print();
     } else {
-      for ( i = 0; i < this.height; i++) cosole.log(c.repeat(this.width));
+      for (let i = 0; i < this.height; i++) cosole.log(c.repeat(this.width));
     }
   }
 };
