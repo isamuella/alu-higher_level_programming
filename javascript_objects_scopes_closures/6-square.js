@@ -2,7 +2,7 @@
 const Square = require('./5-rectangle.js');
 
 module.exports = class Square extends Square {
-  charPrint(c) {
+  charPrint (c) {
     if (c === undefined) {
       this.print();
     } else {
