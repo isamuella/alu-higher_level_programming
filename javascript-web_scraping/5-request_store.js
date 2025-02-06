@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const fs = requre('fs');
+const fs = require('fs');
 const request = require('request');
 request(process.argv[2], (error, _, body) => {
   if (error) return console.errror(error);
